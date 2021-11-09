@@ -26,14 +26,13 @@ a:hover{
 
 
 
-.disena {
-  color: purple;
+.disena { 
   font-size: 20px;
-  font-weight: 800;
-
-
+  font-weight: 600;
 }
-#adesina:hover {
+
+
+#adisena:hover {
   color:rgba(0,0,0,0);
   text-decoration: none;
 }
@@ -42,18 +41,35 @@ a:hover{
   50%{background-position:bottom}
   100%{background-position:top}
 }
-#adesina{
+#adisena{
   background: linear-gradient(to top,purple 20%, #00c9ff 90%);
-  
   animation: rainbow 2s ease-in-out infinite;
   background-clip: text;
   -webkit-background-clip:text;
   color:transparent;
-  
- 
   transition: color .2s ease-in-out;
-  
- 
+  transition: all .5s ease;
+}
+
+
+
+
+#blockk:hover {
+  color:rgba(0,0,0,0);
+  text-decoration: none;
+}
+@keyframes rainbow { 
+  0%{background-position:top}
+  50%{background-position:bottom}
+  100%{background-position:top}
+}
+#blockk{
+  background: linear-gradient(to top,black, rgb(77, 74, 74),white);
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:transparent;
+  transition: color .2s ease-in-out;
   transition: all .5s ease;
 }
 
@@ -145,7 +161,7 @@ a:hover{
 }
 
 .text-brand {
-  
+  margin: 0px;
   color: #00c9ff;
   font-size: 2rem;
   font-weight: 600;
@@ -1689,6 +1705,7 @@ footer .credits {
 }
 
 @media (min-width: 576px) {
+
   .intro .intro-title {
     font-size: 3.5rem;
   }
@@ -1720,6 +1737,7 @@ footer .credits {
 }
 
 @media (min-width: 768px) {
+  
   .link-a {
     font-size: .9rem;
   }
@@ -1875,15 +1893,19 @@ footer .credits {
   .card-box-a:hover .card-overlay-a-content {
     bottom: 60px;
   }
+
 }
 
 @media (min-width: 768px) and (min-width: 992px) {
   .card-box-a:hover .card-overlay-a-content {
     bottom: 64px;
   }
+  
 }
 
 @media (min-width: 992px) {
+
+  
   .link-a {
     font-size: 1rem;
   }
@@ -1988,12 +2010,18 @@ footer .credits {
   .property-contact {
     margin-top: 2.5rem;
   }
+  #asolen{
+ 
+    margin-left: 10rem;
+}
+
 }
 
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
+  
 }
 
 @media (max-width: 767px) {
@@ -2048,9 +2076,11 @@ footer .credits {
   .card-body-c {
     padding: 0;
   }
+  
 }
 
 @media (max-width: 575px) {
+ 
   .box-collapse .title-box-d {
     left: 35px;
   }
