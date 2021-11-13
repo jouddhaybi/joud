@@ -3,6 +3,19 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #555555;
 }
+.containerrr {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+
 
 h1,
 h2,
@@ -613,10 +626,7 @@ a:hover{
   
 }
 
-.navbar-default .nav-search {
-  color: #000000;
-  font-size: 1.5rem;
-}
+
 
 .navbar-default.navbar-reduce {
   background-color: #fff;
@@ -802,6 +812,7 @@ a:hover{
 /*------/ Hamburger Navbar /------*/
 
 .navbar-toggler {
+  
   position: relative;
 }
 
@@ -1651,58 +1662,8 @@ footer .credits {
   font-size: 14px;
 }
 
-/*======================================
-//--//-->   FORM INPUT
-======================================*/
 
 
-
-
-/*======================================
-//--//-->   BUTTON
-======================================*/
-
-.btn {
-  transition: .5s ease;
-}
-
-.btn.btn-a,
-.btn.btn-b {
-  border-radius: 0;
-  padding: 1rem 3rem;
-  letter-spacing: .05rem;
-}
-
-.btn.btn-a {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-.btn.btn-a:hover {
-  background-color: #92fe9d;
-  color: #000000;
-}
-
-.btn.btn-b {
-  background-color: #92fe9d;
-  color: #000000;
-}
-
-.btn.btn-b:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-.btn.btn-b-n {
-  background-color: #92fe9d;
-  color: #ffffff;
-  border-radius: 0;
-}
-
-.btn.btn-b-n:hover {
-  background-color: #26a356;
-  color: #ffffff;
-}
 
 @media (min-width: 576px) {
 
@@ -2010,10 +1971,7 @@ footer .credits {
   .property-contact {
     margin-top: 2.5rem;
   }
-  #asolen{
- 
-    margin-left: 10rem;
-}
+
 
 }
 
