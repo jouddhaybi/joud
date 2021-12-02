@@ -308,6 +308,9 @@ a:hover{
 }
 
 /*------/ Icon Box /------*/
+.icon-box{
+  margin: auto;
+}
 
 .icon-box .icon-box-icon {
   display: table-cell;
@@ -1850,6 +1853,7 @@ footer .credits {
   }
 }
 
+
 @media (min-width: 768px) and (min-width: 768px) {
   .card-box-a:hover .card-overlay-a-content {
     bottom: 60px;
@@ -2042,7 +2046,9 @@ footer .credits {
   .box-collapse .title-box-d {
     left: 35px;
   }
-
+.hero .he  {
+  font-size:20px ;
+}
   .box-collapse .title-box-d .title-d {
     font-size: 1.3rem;
   }
