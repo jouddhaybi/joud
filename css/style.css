@@ -89,7 +89,7 @@ a:hover{
 
 
 
-
+/*
 #asolen {
   
   
@@ -115,7 +115,7 @@ a:hover{
   50%{background-position:bottom}
   100%{background-position:top}
 }
-
+*/
 
 
 
@@ -182,19 +182,19 @@ a:hover{
 }
 
 .color-a {
-  color: #000000;
+  color: #3e5479;
 }
 
-.color-b {
+/*.color-b {
   color: #92fe9d;
 }
 
 .color-d {
   color: #adadad;
-}
+}*/
 
 .color-text-a {
-  color: #555555;
+  color: #59a7d8;
 }
 
 .no-margin {
@@ -203,8 +203,8 @@ a:hover{
 
 /*------/ Nav Pills  /------*/
 
-.nav-pills-a.nav-pills .nav-link {
-  color: #000000;
+/*.nav-pills-a.nav-pills .nav-link {
+  color: #3e5479;
   position: relative;
   font-weight: 600;
 }
@@ -222,7 +222,7 @@ a:hover{
   height: 2px;
   background-color: #92fe9d;
   z-index: 2;
-}
+}*/
 
 /*------/ Bg Image /------*/
 
@@ -272,7 +272,7 @@ a:hover{
 .pagination-a .pagination .page-link:hover,
 .pagination-a .pagination .page-link:active,
 .pagination-a .pagination .page-link:focus {
-  background-color: #92fe9d;
+  background-color: #59a7d8;
 }
 
 .pagination-a .pagination .page-link span {
@@ -299,11 +299,11 @@ a:hover{
 }
 
 .pagination-a .pagination .page-item.active .page-link {
-  background-color: #92fe9d;
+  background-color: #59a7d8;
 }
 
 .a {
-  color: #92fe9d;
+  color: #ffccf6;
   font-size: 1.3rem;
 }
 
@@ -316,11 +316,13 @@ a:hover{
   display: table-cell;
   vertical-align: top;
   font-size: 36px;
-  color: #000000;
+  color: #a8b7e1;
   width: 50px;
   padding-top: 8px;
 }
-
+.icon-title{
+  color: #a8b7e1;
+}
 .icon-box .icon-box-content {
   padding-top: 18px;
 }
@@ -354,7 +356,7 @@ a:hover{
 }
 
 .title-a {
-  color:#555555 ;
+  color:#3e5479 ;
  
   font-size: 2.6rem;
   font-weight: 600;
@@ -382,6 +384,9 @@ a:hover{
   margin-bottom: 1rem;
   position: relative;
 }
+.title-d{
+  color: #3e5479;
+}
 
 .title-box-d .title-d {
   font-weight: 600;
@@ -393,7 +398,7 @@ a:hover{
   position: absolute;
   width: 70px;
   height: 4px;
-  background-color: #92fe9d;
+  background-color: #ffccf6;
   bottom: 20px;
   left: 0;
 }
@@ -544,7 +549,7 @@ a:hover{
 .back-to-top {
   position: fixed;
   display: none;
-  background:  #00c9ff;
+  background:  #59a7d8;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -582,7 +587,7 @@ a:hover{
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #92fe9d;
+  border-top: 6px solid #59a7d8;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -625,7 +630,7 @@ a:hover{
   padding-bottom: 28px;*/
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  box-shadow: 1px 2px 15px #92fe9d;
+  box-shadow: 1px 2px 15px #59a7d8;
   
 }
 
@@ -633,7 +638,7 @@ a:hover{
 
 .navbar-default.navbar-reduce {
   background-color: #fff;
-  box-shadow: 1px 2px 15px #92fe9d;
+  box-shadow: 1px 2px 15px #59a7d8;
 }
 
 .navbar-default.navbar-trans,
@@ -653,7 +658,7 @@ a:hover{
 .navbar-default.navbar-trans .nav-link,
 .navbar-default.navbar-reduce .nav-link {
   font-size: 1.1rem;
-  color: #000000;
+  color: #3e5479;
   font-weight: 600;
   letter-spacing: 0.030em;
   transition: all 0.1s ease-in-out;
@@ -671,7 +676,7 @@ a:hover{
   width: 100%;
   height: 2px;
   z-index: 0;
-  background-color: #92fe9d;
+  background-color: #3e5479;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: right;
@@ -683,7 +688,7 @@ a:hover{
 
 .navbar-default.navbar-trans .nav-link:hover,
 .navbar-default.navbar-reduce .nav-link:hover {
-  color: #000000;
+  color: #3e5479;
 }
 
 .navbar-default.navbar-trans .nav-link:hover:before,
@@ -707,18 +712,18 @@ a:hover{
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  background-color: #92fe9d;
+  background-color: #ffccf6;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
-  color: #000000;
+  color: #ffccf6;
 }
 
 .navbar-default.navbar-trans .show > .nav-link,
 .navbar-default.navbar-trans .active > .nav-link,
 .navbar-default.navbar-trans .nav-link.show,
 .navbar-default.navbar-trans .nav-link.active {
-  color: #000000;
+  color: #3e5479;
 }
 
 .navbar-default.navbar-reduce {
@@ -728,23 +733,25 @@ a:hover{
 }
 
 .navbar-default.navbar-reduce .nav-link {
-  color: #000000;
+  color: #3e5479;
 }
 
 .navbar-default.navbar-reduce .nav-link:before {
-  background-color: #92fe9d;
+  background-color: #ffccf6;
 }
 
 .navbar-default.navbar-reduce .nav-link:hover {
-  color: #000000;
+  color: #ffccf6;
 }
 
 .navbar-default.navbar-reduce .show > .nav-link,
 .navbar-default.navbar-reduce .active > .nav-link,
 .navbar-default.navbar-reduce .nav-link.show,
 .navbar-default.navbar-reduce .nav-link.active {
-  color: #000000;
+  color: #3e5479;
 }
+
+
 .logo-img{
   width: 120px;
 
@@ -834,7 +841,7 @@ a:hover{
 
 .navbar-toggler span {
   display: block;
-  background-color: #000000;
+  background-color: #3e5479;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -1006,11 +1013,11 @@ a:hover{
 }
 
 .intro .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #92fe9d;
+  background-color: #59a7d8;
 }
 
 .intro .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #92fe9d;
+  background-color: #59a7d8;
 }
 
 .intro .intro-item {
@@ -1081,13 +1088,16 @@ a:hover{
 .intro-single {
   padding: 12rem 0 3rem;
 }
+.title-single{
+  color: #3e5479;
+}
 
 .intro-single .title-single-box {
   padding: 1rem 0 1rem 2rem;
 }
 
 .intro-single .title-single-box {
-  border-left: 3px solid #92fe9d;
+  border-left: 3px solid #ffccf6;
 }
 
 .intro-single .title-single-box .title-single {
@@ -1432,7 +1442,7 @@ a:hover{
 
 .card-box-ico {
   padding: 1rem 3rem 1rem 2.5rem;
-  border: 5px solid #92fe9d;
+  border: 5px solid #a8b7e1;
 }
 
 .card-box-ico span {
@@ -1441,6 +1451,7 @@ a:hover{
 }
 
 .title-c {
+  
   font-size: 2.5rem;
   font-weight: 600;
   margin-left: -40px;
