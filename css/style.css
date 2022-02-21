@@ -621,8 +621,8 @@ a:hover{
 .navbar-default {
   transition: all .5s ease-in-out;
   background-color: #ffffff;
-  padding-top: 28px;
-  padding-bottom: 28px;
+ /* padding-top: 28px;
+  padding-bottom: 28px;*/
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px #92fe9d;
@@ -745,6 +745,14 @@ a:hover{
 .navbar-default.navbar-reduce .nav-link.active {
   color: #000000;
 }
+.logo-img{
+  width: 120px;
+
+  
+  overflow: hidden;
+
+}
+
 
 .navbar-default.navbar-reduce .navbar-brand {
   
@@ -2052,11 +2060,7 @@ footer .credits {
   .box-collapse .title-box-d .title-d {
     font-size: 1.3rem;
   }
-  .card-shadow{
 
-  }
 
-  .serv-pics{
-    
-  }
+  
 }
