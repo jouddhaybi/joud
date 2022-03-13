@@ -310,10 +310,10 @@ a:hover{
   font-size: 1.3rem;
 }
 
-/*------/ Icon Box /------*/
+/*------/ Icon Box /------
 .icon-box{
   margin: auto;
-}
+}*/
 
 .icon-box .icon-box-icon {
   display: table-cell;
@@ -499,7 +499,10 @@ a:hover{
 .owl-arrow .owl-nav .owl-next {
   margin-left: 15px;
 }
+.num{
+margin-left: 80px;
 
+}
 .nav-arrow-a .owl-arrow .owl-nav {
   font-size: 1.8rem;
   margin-top: -110px;
