@@ -228,6 +228,12 @@ a:hover{
 }*/
 
 /*------/ Bg Image /------*/
+.values-border{
+  border-left: 3px solid #ffccf6 !important;
+}
+.values-card{
+  border: none;
+}
 
 .bg-image {
   background-repeat: no-repeat;
