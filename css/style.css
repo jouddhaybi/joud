@@ -191,7 +191,12 @@ a:hover{
   font-weight: 600;
  
 }
-
+.values-border{
+  border-left: 3px solid #ffccf6 !important;
+}
+.values-card{
+  border: none;
+}
 .color-a {
   color: #3e5479;
 }
