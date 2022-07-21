@@ -1477,12 +1477,18 @@ margin-left: 80px;
   padding: 1rem 3rem 1rem 2.5rem;
   border: 5px solid #a8b7e1;
 }
+.permit{
+  width: 253px;
+}
 
 .card-box-ico span {
   font-size: 4rem;
   color: #000000;
 }
-
+.services-subtitel{
+  font-size: 2rem !important;
+  color: #555555;
+}
 .title-c {
   
   font-size: 2.5rem;
